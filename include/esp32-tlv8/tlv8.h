@@ -34,7 +34,7 @@ extern "C" {
 #define _TLV8_H
 
 #include <stdint.h>
-#include "mbedtls/bignum.h"
+#include <mbedtls/bignum.h>
 #include "esp32-utils/utils.h"
 
 #define TLV8_VERSION_MAJ                 0
